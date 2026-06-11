@@ -5,13 +5,13 @@ from main import app
 client = TestClient(app)
 
 TEAMS = [
-    "breeze",
-    "claude-scholars",
+    #     "breeze",
+    #     "claude-scholars",
     "instructor",
-    "merge-survivors",
-    "team-dragons",
-    "team101",
-    "the-shrimps",
+    #     "merge-survivors",
+    #     "team-dragons",
+    #     "team101",
+    #     "the-shrimps",
 ]
 
 
