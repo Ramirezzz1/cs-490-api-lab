@@ -3,8 +3,10 @@ from pydantic import BaseModel
 
 router = APIRouter()
 
-QUESTION = "What have the Romans ever done for us?"
-ANSWER = "The aqueducts?"
+QUESTION = "What's on the telly?"
+# QUESTION = "What have the Romans ever done for us?"
+ANSWER = "I think it's a duck."
+# ANSWER = "The aqueducts?"
 
 
 class AnswerRequest(BaseModel):
